@@ -10,7 +10,7 @@ class Cube(object):
     rows = 20
     w = 500
 
-    def __init__(self, start, dir_x=1, dir_y=0, color=(255, 0, 0)):
+    def __init__(self, start, color=(255, 0, 0)):
         self.pos = start
         self.dir_x = 1
         self.dir_y = 0
@@ -26,13 +26,13 @@ class Cube(object):
         i = self.pos[0]
         j = self.pos[1]
 
-        pygame.draw.rect(surface, self.color, (i*dis+1, j*dis+1, dis-2, dis-2))
+        pygame.draw.rect(surface, self.color, (i * dis + 1, j * dis + 1, dis - 2, dis - 2))
 
         if eyes:
             center = dis // 2
             radius = 3
-            circle_middle = (i*dis+center-radius, j*dis+8)
-            circle_middle2 = (i*dis + dis-radius*2, j*dis+8)
+            circle_middle = (i * dis + center - radius, j * dis + 8)
+            circle_middle2 = (i * dis + dis - radius * 2, j * dis + 8)
             pygame.draw.circle(surface, (0, 0, 0), circle_middle, radius)
             pygame.draw.circle(surface, (0, 0, 0), circle_middle2, radius)
 
@@ -201,7 +201,7 @@ def main():
             snack = Cube(random_snack(s), color=(0, 255, 0))
 
             for x in range(len(s.body)):
-                if s.body[x].pos in list(map(lambda z: z.pos, s.body[x+1:])):
+                if s.body[x].pos in list(map(lambda z: z.pos, s.body[x + 1:])):
                     print('Score: ', len(s.body))
                     message_box('Game Over', 'Try Again')
                     s.reset((10, 10))

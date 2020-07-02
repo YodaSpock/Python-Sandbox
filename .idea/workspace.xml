@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ed0999-f37d-4a47-b9de-296c6bb68e2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/comcy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Order66.MOV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/RachelandIsaac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualPaint.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake.py" afterDir="false" />
     </list>
@@ -21,17 +25,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e3K6Yz36sfOF7nMAx7B3vyeuAS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.RunSnake">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\Sandbox\Resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.RunPaint">
     <configuration name="RunHangman" type="PythonConfigurationType" factoryName="Python">
       <module name="Sandbox-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +59,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hangman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunPaint" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\comcy\AppData\Local\Programs\Python\Python38-32\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VirtualPaint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,6 +112,7 @@
     <list>
       <item itemvalue="Python.RunHangman" />
       <item itemvalue="Python.RunSnake" />
+      <item itemvalue="Python.RunPaint" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -92,30 +128,39 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593548211140">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1368" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593666733030">
+      <screen x="-1600" y="0" width="1600" height="860" />
     </state>
+    <state x="-1368" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593666733030" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593548211140" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1593585544559">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1579" height="208" key="GridCell.Tab.0.bottom" timestamp="1593667944432">
+      <screen x="-1600" y="0" width="1600" height="860" />
     </state>
+    <state width="1579" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593667944432" />
     <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544559" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1593585544559">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1579" height="208" key="GridCell.Tab.0.center" timestamp="1593667944432">
+      <screen x="-1600" y="0" width="1600" height="860" />
     </state>
+    <state width="1579" height="208" key="GridCell.Tab.0.center/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593667944432" />
     <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544559" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1593585544558">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1579" height="208" key="GridCell.Tab.0.left" timestamp="1593667944432">
+      <screen x="-1600" y="0" width="1600" height="860" />
     </state>
+    <state width="1579" height="208" key="GridCell.Tab.0.left/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593667944432" />
     <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544558" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1593585544559">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1579" height="208" key="GridCell.Tab.0.right" timestamp="1593667944432">
+      <screen x="-1600" y="0" width="1600" height="860" />
     </state>
+    <state width="1579" height="208" key="GridCell.Tab.0.right/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593667944432" />
     <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544559" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1593544796772">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1311" y="57" key="SettingsEditor" timestamp="1593666594631">
+      <screen x="-1600" y="0" width="1600" height="860" />
     </state>
+    <state x="-1311" y="57" key="SettingsEditor/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593666594631" />
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593544796772" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593581986359">
       <screen x="0" y="0" width="1536" height="824" />
