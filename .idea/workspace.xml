@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ed0999-f37d-4a47-b9de-296c6bb68e2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCV/BasicImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV/Modifications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV/ResizingCropping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV/Shapes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualPaint.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,70 @@
       <recent name="C:\PythonProjects\Sandbox\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RunPaint">
+  <component name="RunManager" selected="Python.RunShapes">
+    <configuration name="RunBasicImage" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\comcy\AppData\Local\Programs\Python\Python38-32\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/BasicImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunBasicVideo" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/BasicVideo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunBasicWebcam" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/BasicWebcam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="RunHangman" type="PythonConfigurationType" factoryName="Python">
       <module name="Sandbox-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,19 +129,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RunPaint" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="RunModifications" type="PythonConfigurationType" factoryName="Python">
       <module name="Sandbox-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\comcy\AppData\Local\Programs\Python\Python38-32\pythonw.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VirtualPaint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/Modifications.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunResizingCropping" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/ResizingCropping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RunShapes" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/Shapes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,10 +213,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RunVirtualPaint" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sandbox-2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\comcy\AppData\Local\Programs\Python\Python38-32\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VirtualPaint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.RunHangman" />
       <item itemvalue="Python.RunSnake" />
-      <item itemvalue="Python.RunPaint" />
+      <item itemvalue="Python.RunVirtualPaint" />
+      <item itemvalue="Python.RunBasicImage" />
+      <item itemvalue="Python.RunBasicVideo" />
+      <item itemvalue="Python.RunResizingCropping" />
+      <item itemvalue="Python.RunBasicWebcam" />
+      <item itemvalue="Python.RunModifications" />
+      <item itemvalue="Python.RunShapes" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -128,35 +263,36 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1368" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593666733030">
-      <screen x="-1600" y="0" width="1600" height="860" />
+    <state x="223" y="67" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593840394429">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1368" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593666733030" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593548211140" />
-    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1593740689225">
+    <state x="223" y="67" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593840394429" />
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1593840399006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1579" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593713710172" />
     <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544559" />
-    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593740689225" />
-    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1593740689224">
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593840399006" />
+    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1593840399006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1579" height="211" key="GridCell.Tab.0.center/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593713710172" />
     <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544559" />
-    <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593740689224" />
-    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1593740689224">
+    <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593840399006" />
+    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1593840399006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1579" height="211" key="GridCell.Tab.0.left/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593713710171" />
     <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544558" />
-    <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593740689224" />
-    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1593740689225">
+    <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593840399006" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1593840399006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1579" height="211" key="GridCell.Tab.0.right/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@-1600.0.1600.860" timestamp="1593713710172" />
     <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.824/-1600.0.1600.860/1920.0.1280.984@0.0.1536.824" timestamp="1593585544559" />
-    <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593740689225" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593840399006" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1593838739434">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
