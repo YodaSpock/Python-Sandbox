@@ -1,18 +1,6 @@
 import cv2
 import numpy as np
 
-# BASIC IMAGE
-# img = cv2.imread("Resources/RachelandIsaac.jpg")
-# cv2.imshow("Output", img)
-# cv2.waitKey(0)
-
-# BASIC VIDEO
-# cap = cv2.VideoCapture("Resources/Order66.MOV")
-# while True:
-#    success, img = cap.read()
-#    cv2.imshow("Video", img)
-#    if cv2.waitKey(1) &0xFF == ord('q'):
-#        break
 
 # BASIC WEB-CAM CAPTURE
 # cap = cv2.VideoCapture(0)
@@ -79,5 +67,5 @@ import numpy as np
 
 #Basic Warp Perspective
 
-img = cv2.imread()
+#img = cv2.imread()
 
